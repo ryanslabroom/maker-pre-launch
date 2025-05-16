@@ -1,0 +1,177 @@
+body {
+    background-color: darkslateblue;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin: 2% 10%;
+}
+
+.hero {
+    width: 100%; 
+    background-image: url(assets/illustration-hero-left.svg), url(assets/bg-hero-squiggle.svg), url(assets/illustration-hero-right.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left center, center center, right center;
+    background-size: auto 100%, cover, auto 100%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    color: white;
+}
+
+.hero h1 {
+    width: 25%;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.hero p {
+    width: 25%;
+    margin: 1% auto;
+    color: gray;
+}
+
+.scrollicon {
+    width: 1%;
+    margin: 5% auto;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.FOne {
+text-align: center;
+color: white;
+}
+
+.FTwo {
+    text-align: center;
+    color: white;
+}
+
+.FThree {
+    text-align: center;
+    color: white;
+}
+
+.FFour {
+    text-align: center;
+    color: white;
+}
+
+.FOne p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.FTwo p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.FThree p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.FFour p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.ImageOne {
+ background-color: lightblue;
+ border: none;
+ border-radius: 25%;
+ padding: 5%;
+}
+
+
+
+.ImageTwo {
+    background-color: lightblue;
+    border: none;
+    border-radius: 25%;
+    padding: 5%;
+    margin-top: 20%;
+}
+
+.PricingTitle {
+    margin: 10% 25%;
+    text-align: center;
+    color: white;
+}
+
+.PricingTitle h3 {
+    font-size: 1.5rem;
+}
+.PricingTitle p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pricePanels {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 0 25%;
+    gap: 5%;
+    
+}
+
+.pricePanels p {
+    margin-left: 10%;
+}
+
+.DipToe {
+background-color: lightblue;
+border-radius: 5%;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.DiveIn {
+background-color: aqua;
+border-radius: 5%;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.launchOne {
+    margin: 5% auto;
+    text-align: center;
+    color: white;
+}
+
+.launchTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.EmailInput {
+    background-color: lightblue;
+    border-radius: 5%;
+    border: none;
+    width: 25%;
+}
+
+.notify {
+    margin-left: 2%;
+}
